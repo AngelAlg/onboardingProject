@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Courses</title>
+</head>
+<body>
+
+	<a href="index.html">Home</a> |
+	<a href="register.html">Users</a> |
+	<a href="login.html">Log Out</a> |
+	<a href="contact.html">Contact</a> |
+	<a href="feedback.html">Feedback</a> |
+	<a href="courses.html">Courses</a> |
+
+<form action="deleteCourse" method="post">
+      
+       <pre>
+        ID to delete: <input type="text" id="id" name="id" />  <input type="submit" value="Delete" /><br>
+            </pre>
+       </form>
+       
+       
+       <form action="courses" method="post">
+        <pre>
+       	 Name		: <input type="text" id="coursename" name="coursename" /> <br>
+         Description    : <input type="text" id="desc" name="desc" /><br>
+         Fees  	    	: <input type="number" id="fee" name="fee" /> <br>
+       	 Resource       : <input type="file" id="resource" name="resource" /> <br>
+        
+                          <input type="submit" value="Add" />
+         </pre>
+       </form>
+       
+        <form action="courses" method="get">
+        <pre>
+                         <input type="submit" value="Show" />
+          </pre>
+       </form>
+       
+       
+        
+</body>
+</html>
